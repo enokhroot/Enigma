@@ -34,7 +34,7 @@ while true; do
         fi
     fi
     if [ $cypher_ == "2" ]; then
-        read -p "Если Вы хотите зашифровать или расшифровать, то введите текст" text_
+        read -p "Если Вы хотите зашифровать или расшифровать, то введите текст: " text_
         echo $text_ | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
     fi
 done
